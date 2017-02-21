@@ -1,0 +1,318 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+body {
+  font-weight: normal;
+  font-style: normal;
+  font-family: 'Open Sans', sans-serif;
+  /*header*/
+  /* max-width  */ }
+  body .topo {
+    background-image: url(img/top.jpg); }
+    body .topo #navbar-header .container {
+      padding-top: 0;
+      padding-left: 0; }
+      body .topo #navbar-header .container .circle {
+        background: url(/img/circle.png) 0 0;
+        display: block;
+        height: 32px;
+        width: 32px;
+        font-family: Monotype cursive;
+        font-style: italic;
+        color: #fff;
+        font-weight: bold;
+        width: 100px;
+        text-decoration: none;
+        padding-bottom: 55px; }
+        body .topo #navbar-header .container .circle a:focus, body .topo #navbar-header .container .circle a:hover {
+          text-decoration: none; }
+        body .topo #navbar-header .container .circle ul.dropdown-menu {
+          margin-left: 30px;
+          padding: 20px;
+          opacity: 0.65;
+          width: 250px; }
+          body .topo #navbar-header .container .circle ul.dropdown-menu li a {
+            font-size: 25px;
+            font-family: 'Open Sans', sans-serif;
+            color: #00bce8;
+            font-style: normal; }
+          body .topo #navbar-header .container .circle ul.dropdown-menu li a:hover {
+            text-decoration: none; }
+    body .topo .container .texto {
+      padding-bottom: 333px;
+      padding-top: 300px; }
+      body .topo .container .texto h1 {
+        font-size: 3em;
+        font-weight: regular;
+        color: #fff; }
+      body .topo .container .texto h6 {
+        font-size: 0.9em important;
+        color: #000; }
+  @media screen and (max-width: 320px) {
+    body .texto-one h1 {
+      font-size: 25px; }
+    body .iphone {
+      display: none; }
+    body #text-meio .container .texto-two {
+      text-align: left;
+      margin-top: 0; } }
+  body #text-meio {
+    padding-bottom: 80px; }
+    body #text-meio .container {
+      padding: 0; }
+      body #text-meio .container .texto-one {
+        padding-top: 90px;
+        text-align: left; }
+        body #text-meio .container .texto-one h1 {
+          font-size: 35px;
+          font-weight: light;
+          color: #959595;
+          padding-bottom: 30px; }
+        body #text-meio .container .texto-one p {
+          font-size: 14px;
+          color: #959595; }
+      body #text-meio .container .texto-two {
+        text-align: left;
+        margin-top: -706px; }
+        body #text-meio .container .texto-two .iphone {
+          padding-bottom: 30px; }
+        body #text-meio .container .texto-two p {
+          font-size: 14px;
+          color: #959595; }
+  body #quadrados {
+    padding-bottom: 90px; }
+    body #quadrados .quadrados-up .step1 {
+      padding: 40px;
+      background-color: #f5989d; }
+      body #quadrados .quadrados-up .step1 h1 {
+        font-size: 30px;
+        color: #fff;
+        padding-bottom: 25px; }
+      body #quadrados .quadrados-up .step1 p {
+        font-size: 12px;
+        color: #fff;
+        padding-bottom: 40px; }
+      body #quadrados .quadrados-up .step1 a > span {
+        font-size: 14px;
+        color: #fff;
+        font-weight: bold; }
+      body #quadrados .quadrados-up .step1 a:focus, body #quadrados .quadrados-up .step1 a:hover {
+        text-decoration: none; }
+    body #quadrados .quadrados-up .step2 {
+      padding: 40px;
+      background-color: #615f7d; }
+      body #quadrados .quadrados-up .step2 h1 {
+        font-size: 30px;
+        color: #fff;
+        padding-bottom: 25px; }
+      body #quadrados .quadrados-up .step2 p {
+        font-size: 12px;
+        color: #fff;
+        padding-bottom: 40px; }
+      body #quadrados .quadrados-up .step2 a > span {
+        font-size: 14px;
+        color: #fff;
+        font-weight: bold; }
+      body #quadrados .quadrados-up .step2 a:focus, body #quadrados .quadrados-up .step2 a:hover {
+        text-decoration: none; }
+    body #quadrados .quadrados-up .step3 {
+      padding: 40px;
+      background-image: url(img/quad1.jpg); }
+      body #quadrados .quadrados-up .step3 h1 {
+        font-size: 30px;
+        color: #fff;
+        padding-bottom: 25px; }
+      body #quadrados .quadrados-up .step3 p {
+        font-size: 12px;
+        color: #fff;
+        padding-bottom: 40px; }
+      body #quadrados .quadrados-up .step3 a > span {
+        font-size: 14px;
+        color: #fff;
+        font-weight: bold; }
+      body #quadrados .quadrados-up .step3 a:focus, body #quadrados .quadrados-up .step3 a:hover {
+        text-decoration: none; }
+    body #quadrados .quadrados-down .step1 {
+      padding-left: 40px;
+      padding-top: 40px;
+      padding-right: 300px;
+      background-image: url(img/quad2.jpg);
+      background-position: 0 50%; }
+      body #quadrados .quadrados-down .step1 h1 {
+        font-size: 30px;
+        color: #fff;
+        padding-bottom: 25px; }
+      body #quadrados .quadrados-down .step1 p {
+        font-size: 12px;
+        color: #fff;
+        padding-bottom: 40px; }
+      body #quadrados .quadrados-down .step1 a > span {
+        font-size: 14px;
+        color: #fff;
+        font-weight: bold; }
+      body #quadrados .quadrados-down .step1 a:focus, body #quadrados .quadrados-down .step1 a:hover {
+        text-decoration: none; }
+    body #quadrados .quadrados-down .step2 {
+      padding: 40px;
+      background-color: #82ca9c; }
+      body #quadrados .quadrados-down .step2 h1 {
+        font-size: 30px;
+        color: #fff;
+        padding-bottom: 25px; }
+      body #quadrados .quadrados-down .step2 p {
+        font-size: 12px;
+        color: #fff;
+        padding-bottom: 40px; }
+      body #quadrados .quadrados-down .step2 a > span {
+        font-size: 14px;
+        color: #fff;
+        font-weight: bold; }
+      body #quadrados .quadrados-down .step2 a:focus, body #quadrados .quadrados-down .step2 a:hover {
+        text-decoration: none; }
+  body #details {
+    padding-bottom: 80px; }
+    body #details .container h1 {
+      color: #222626;
+      font-size: 35px;
+      padding-bottom: 65px; }
+    body #details .container .row h2 {
+      color: #67676d;
+      font-size: 13px;
+      font-weight: bold;
+      padding-bottom: 30px; }
+    body #details .container .row p {
+      text-align: left;
+      color: #959595;
+      font-size: 12px; }
+  body #pen {
+    padding-bottom: 80px; }
+    body #pen .power {
+      padding-bottom: 140px;
+      background-image: url(img/pen.jpg); }
+      body #pen .power .boxpower {
+        padding-left: 300px;
+        padding-top: 440px; }
+        body #pen .power .boxpower h1 {
+          font-size: 43px;
+          color: #fff; }
+        body #pen .power .boxpower p {
+          font-size: 12px;
+          color: #fff; }
+        body #pen .power .boxpower span {
+          font-size: 12px;
+          color: #fff; }
+  body #thegreen .onboards {
+    background-color: #82ca9c;
+    padding-top: 100px;
+    padding-bottom: 150px; }
+    body #thegreen .onboards h1 {
+      color: #fff;
+      font-size: 35px;
+      padding-bottom: 65px; }
+    body #thegreen .onboards .row h2 {
+      color: #fff;
+      font-size: 13px;
+      font-weight: bold;
+      padding-bottom: 30px; }
+    body #thegreen .onboards .row p {
+      text-align: left;
+      color: #fff;
+      font-size: 13px; }
+  body #planos {
+    background-color: #f6f7fa; }
+    body #planos .describe {
+      padding-top: 100px;
+      padding-bottom: 50px; }
+      body #planos .describe .solo {
+        background-color: #f6f7fa;
+        padding: 50px;
+        padding-right: 100px; }
+        body #planos .describe .solo .b {
+          padding: 0; }
+          body #planos .describe .solo .b h1 {
+            background-color: #e1e1e1;
+            font-size: 13px;
+            font-weight: bold;
+            border-radius: 5px;
+            text-align: center;
+            color: #fff;
+            padding: 8px; }
+        body #planos .describe .solo h1 {
+          font-size: 30px; }
+        body #planos .describe .solo p {
+          font-size: 14px;
+          padding-top: 20px;
+          padding-bottom: 20px; }
+        body #planos .describe .solo button {
+          cursor: pointer; }
+      body #planos .describe .team {
+        background-color: #fff;
+        padding: 50px;
+        padding-right: 100px; }
+        body #planos .describe .team .m {
+          padding: 0; }
+          body #planos .describe .team .m h2 {
+            font-size: 12px;
+            background-color: #bd8cbf;
+            font-weight: bold;
+            border-radius: 5px;
+            text-align: center;
+            color: #fff;
+            padding: 8px; }
+        body #planos .describe .team h1 {
+          font-size: 30px; }
+        body #planos .describe .team p {
+          font-size: 14px;
+          padding-top: 20px;
+          padding-bottom: 20px; }
+        body #planos .describe .team button {
+          cursor: pointer; }
+  body #footer {
+    background-color: #192431; }
+    body #footer .container {
+      padding-top: 125px;
+      color: #fff; }
+      body #footer .container .boxone {
+        font-size: 13px; }
+        body #footer .container .boxone h1 {
+          font-size: 13px;
+          color: #fff;
+          padding-bottom: 25px; }
+        body #footer .container .boxone p {
+          font-size: 13px;
+          color: #fff;
+          padding-bottom: 25px; }
+        body #footer .container .boxone .col1 h3, body #footer .container .boxone .col2 h3, body #footer .container .boxone .col3 h3 {
+          font-size: 13px;
+          color: #fff;
+          padding-bottom: 25px; }
+        body #footer .container .boxone .col1 ul, body #footer .container .boxone .col2 ul, body #footer .container .boxone .col3 ul {
+          list-style: none !important;
+          margin: 0px;
+          padding: 0px;
+          display: inline;
+          list-style-type: none; }
+          body #footer .container .boxone .col1 ul li, body #footer .container .boxone .col2 ul li, body #footer .container .boxone .col3 ul li {
+            display: inline; }
+            body #footer .container .boxone .col1 ul li a, body #footer .container .boxone .col2 ul li a, body #footer .container .boxone .col3 ul li a {
+              font-size: 12px;
+              line-height: 2em;
+              list-style: none;
+              color: #fff; }
+      body #footer .container .boxtwo h1 {
+        font-size: 13px;
+        color: #fff;
+        padding-bottom: 25px; }
+      body #footer .container .boxtwo .input-group {
+        border-radius: 0;
+        height: 60px; }
+        body #footer .container .boxtwo .input-group span {
+          width: 70px;
+          font-size: 30px; }
+          body #footer .container .boxtwo .input-group span button {
+            cursor: pointer;
+            background-color: #82ca9c; }
+      body #footer .container .boxtwo span {
+        color: #4d5e72;
+        font-size: 12px; }
+
+/*# sourceMappingURL=style.css.map */
